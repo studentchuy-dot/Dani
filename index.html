@@ -124,6 +124,25 @@
     transform:translateY(-4px);
   }
 
+  @media (max-width: 768px) {
+    .rose {
+      width: clamp(180px, 35vw, 260px);
+      bottom: 1vh;
+    }
+
+    .rose:nth-child(1){ --offset-x:-34vw; --scale:0.9; bottom:1.5vh; }
+    .rose:nth-child(2){ --offset-x:-20vw; --scale:1.02; bottom:1.2vh; }
+    .rose:nth-child(3){ --offset-x:-7vw; --scale:1.18; bottom:2vh; }
+    .rose:nth-child(4){ --offset-x:8vw; --scale:1.26; bottom:2.2vh; }
+    .rose:nth-child(5){ --offset-x:21vw; --scale:1.12; bottom:1.4vh; }
+    .rose:nth-child(6){ --offset-x:-47vw; --scale:0.82; bottom:0.5vh; }
+    .rose:nth-child(7){ --offset-x:45vw; --scale:0.82; bottom:0.7vh; }
+
+    .rose svg {
+      transform: translateY(-18px) scale(1.12);
+    }
+  }
+
   #title{
     position:absolute;
     top:5%;
@@ -167,16 +186,16 @@
           <path d="M120,210 C76,200 52,214 42,246 C76,248 102,232 120,210 Z" fill="#2f7d3a"/>
           <path d="M120,170 C166,162 194,176 206,206 C170,210 145,191 120,170 Z" fill="#2f7d3a"/>
 
-          <g transform="translate(120 88)">
-            <g transform="rotate(0)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal1)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(45)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal1)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(90)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal1)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(135)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal1)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(180)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal1)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(225)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal1)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(270)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal1)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(315)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal1)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <circle cx="0" cy="0" r="18" fill="url(#roseCenter)"/>
+          <g transform="translate(120 74)">
+            <g transform="rotate(0)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal1)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(45)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal1)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(90)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal1)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(135)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal1)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(180)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal1)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(225)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal1)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(270)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal1)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(315)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal1)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <circle cx="0" cy="0" r="20" fill="url(#roseCenter)"/>
             <circle cx="0" cy="0" r="9" fill="#6b3411" opacity="0.65"/>
           </g>
         </g>
@@ -200,16 +219,16 @@
           <path d="M120,210 C76,200 52,214 42,246 C76,248 102,232 120,210 Z" fill="#2f7d3a"/>
           <path d="M120,170 C166,162 194,176 206,206 C170,210 145,191 120,170 Z" fill="#2f7d3a"/>
 
-          <g transform="translate(120 88)">
-            <g transform="rotate(0)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal2)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(45)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal2)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(90)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal2)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(135)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal2)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(180)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal2)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(225)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal2)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(270)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal2)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(315)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal2)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <circle cx="0" cy="0" r="18" fill="url(#roseCenter2)"/>
+          <g transform="translate(120 74)">
+            <g transform="rotate(0)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal2)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(45)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal2)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(90)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal2)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(135)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal2)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(180)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal2)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(225)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal2)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(270)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal2)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(315)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal2)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <circle cx="0" cy="0" r="20" fill="url(#roseCenter2)"/>
             <circle cx="0" cy="0" r="9" fill="#6b3411" opacity="0.65"/>
           </g>
         </g>
@@ -233,16 +252,16 @@
           <path d="M120,210 C76,200 52,214 42,246 C76,248 102,232 120,210 Z" fill="#2f7d3a"/>
           <path d="M120,170 C166,162 194,176 206,206 C170,210 145,191 120,170 Z" fill="#2f7d3a"/>
 
-          <g transform="translate(120 88)">
-            <g transform="rotate(0)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal3)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(45)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal3)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(90)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal3)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(135)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal3)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(180)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal3)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(225)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal3)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(270)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal3)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(315)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal3)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <circle cx="0" cy="0" r="18" fill="url(#roseCenter3)"/>
+          <g transform="translate(120 74)">
+            <g transform="rotate(0)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal3)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(45)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal3)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(90)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal3)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(135)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal3)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(180)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal3)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(225)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal3)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(270)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal3)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(315)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal3)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <circle cx="0" cy="0" r="20" fill="url(#roseCenter3)"/>
             <circle cx="0" cy="0" r="9" fill="#6b3411" opacity="0.65"/>
           </g>
         </g>
@@ -266,16 +285,16 @@
           <path d="M120,210 C76,200 52,214 42,246 C76,248 102,232 120,210 Z" fill="#2f7d3a"/>
           <path d="M120,170 C166,162 194,176 206,206 C170,210 145,191 120,170 Z" fill="#2f7d3a"/>
 
-          <g transform="translate(120 88)">
-            <g transform="rotate(0)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal4)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(45)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal4)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(90)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal4)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(135)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal4)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(180)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal4)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(225)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal4)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(270)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal4)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(315)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal4)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <circle cx="0" cy="0" r="18" fill="url(#roseCenter4)"/>
+          <g transform="translate(120 74)">
+            <g transform="rotate(0)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal4)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(45)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal4)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(90)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal4)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(135)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal4)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(180)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal4)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(225)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal4)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(270)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal4)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(315)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal4)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <circle cx="0" cy="0" r="20" fill="url(#roseCenter4)"/>
             <circle cx="0" cy="0" r="9" fill="#6b3411" opacity="0.65"/>
           </g>
         </g>
@@ -299,16 +318,16 @@
           <path d="M120,210 C76,200 52,214 42,246 C76,248 102,232 120,210 Z" fill="#2f7d3a"/>
           <path d="M120,170 C166,162 194,176 206,206 C170,210 145,191 120,170 Z" fill="#2f7d3a"/>
 
-          <g transform="translate(120 88)">
-            <g transform="rotate(0)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal5)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(45)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal5)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(90)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal5)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(135)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal5)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(180)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal5)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(225)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal5)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(270)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal5)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(315)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal5)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <circle cx="0" cy="0" r="18" fill="url(#roseCenter5)"/>
+          <g transform="translate(120 74)">
+            <g transform="rotate(0)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal5)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(45)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal5)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(90)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal5)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(135)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal5)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(180)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal5)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(225)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal5)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(270)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal5)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(315)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal5)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <circle cx="0" cy="0" r="20" fill="url(#roseCenter5)"/>
             <circle cx="0" cy="0" r="9" fill="#6b3411" opacity="0.65"/>
           </g>
         </g>
@@ -332,16 +351,16 @@
           <path d="M120,210 C76,200 52,214 42,246 C76,248 102,232 120,210 Z" fill="#2f7d3a"/>
           <path d="M120,170 C166,162 194,176 206,206 C170,210 145,191 120,170 Z" fill="#2f7d3a"/>
 
-          <g transform="translate(120 88)">
-            <g transform="rotate(0)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal6)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(45)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal6)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(90)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal6)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(135)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal6)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(180)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal6)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(225)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal6)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(270)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal6)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(315)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal6)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <circle cx="0" cy="0" r="18" fill="url(#roseCenter6)"/>
+          <g transform="translate(120 74)">
+            <g transform="rotate(0)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal6)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(45)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal6)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(90)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal6)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(135)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal6)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(180)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal6)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(225)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal6)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(270)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal6)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(315)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal6)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <circle cx="0" cy="0" r="20" fill="url(#roseCenter6)"/>
             <circle cx="0" cy="0" r="9" fill="#6b3411" opacity="0.65"/>
           </g>
         </g>
@@ -365,16 +384,16 @@
           <path d="M120,210 C76,200 52,214 42,246 C76,248 102,232 120,210 Z" fill="#2f7d3a"/>
           <path d="M120,170 C166,162 194,176 206,206 C170,210 145,191 120,170 Z" fill="#2f7d3a"/>
 
-          <g transform="translate(120 88)">
-            <g transform="rotate(0)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal7)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(45)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal7)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(90)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal7)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(135)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal7)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(180)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal7)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(225)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal7)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(270)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal7)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <g transform="rotate(315)"><ellipse cx="0" cy="-22" rx="26" ry="36" fill="url(#rosePetal7)" stroke="#8c0d1a" stroke-width="1.5"/></g>
-            <circle cx="0" cy="0" r="18" fill="url(#roseCenter7)"/>
+          <g transform="translate(120 74)">
+            <g transform="rotate(0)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal7)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(45)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal7)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(90)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal7)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(135)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal7)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(180)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal7)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(225)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal7)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(270)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal7)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <g transform="rotate(315)"><ellipse cx="0" cy="-30" rx="34" ry="48" fill="url(#rosePetal7)" stroke="#8c0d1a" stroke-width="1.5"/></g>
+            <circle cx="0" cy="0" r="20" fill="url(#roseCenter7)"/>
             <circle cx="0" cy="0" r="9" fill="#6b3411" opacity="0.65"/>
           </g>
         </g>
